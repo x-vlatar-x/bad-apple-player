@@ -15,28 +15,6 @@ const renderFrame = async (framePath: string, params: Params) => {
         .toBuffer({resolveWithObject: true});
 
     if(params.colorRendering) {
-        // let index = 0;
-        // let output = "";
-
-        // for (let y = 0; y < params.rows * 2; y += 2) {
-        //     for (let x = 0; x < params.columns; x++) {
-        //         const i1 = (y * params.columns + x) * 3;
-        //         const i2 = ((y + 1) * params.columns + x) * 3;
-
-        //         const r1 = data[i1];
-        //         const g1 = data[i1 + 1];
-        //         const b1 = data[i1 + 2];
-
-        //         const r2 = data[i2];
-        //         const g2 = data[i2 + 1];
-        //         const b2 = data[i2 + 2];
-
-        //         output += `\x1b[38;2;${r1};${g1};${b1}m\x1b[48;2;${r2};${g2};${b2}m▀`;
-        //     }
-
-        //     output += "\x1b[0m\n";
-        // }
-
         let index = 0;
         let output = "";
 

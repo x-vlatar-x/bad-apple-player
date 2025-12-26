@@ -27,7 +27,6 @@ const renderColors = (colorRendering: boolean): Promise<number> => {
                 } else {
                     console.log(`  ${options[i]}`);
                 }
-// console.log('\x1b[31mКрасный\x1b[0m');
             }
         };
 
