@@ -1,0 +1,9 @@
+dist/
+frames/
+video/
+node_modules/
+
+app.exe
+
+### VS Code ###
+.vscode/
